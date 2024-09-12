@@ -1,0 +1,28 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #222020;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .profile-email {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    color:  #222020;
+  }
+  
+  .logout-button {
+    font-size: 1rem;
+  }
+  

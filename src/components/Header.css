@@ -1,0 +1,45 @@
+.header-container {
+  position: relative ; 
+  margin-top: 20px;
+  width: 100vw;
+  left: 0 ; 
+}
+
+.header-content {
+  position: center; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  max-width: 1200px;
+  text-align: center;
+}
+
+.header-title {
+  position: absolute; 
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white; 
+  font-size: 2rem; 
+  z-index: 1; 
+  text-align: center;
+}
+
+.header-description {
+  position: absolute;
+  top: calc(50% + 3rem);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 1.2rem;
+  z-index: 1;
+  text-align: center;
+}
+
+.header-image {
+  display: block; 
+  width: 100vw; 
+  height: 40vh; 
+  filter: brightness(20%);
+}
+
+
+
